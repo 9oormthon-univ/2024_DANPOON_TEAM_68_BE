@@ -45,6 +45,6 @@ public class RefreshTokenService {
     }
 
     public void deleteByMember(Member member) {
-        return refreshTokenRepository.deleteByMember(member);
+        refreshTokenRepository.deleteByMember(member);
     }
 }
